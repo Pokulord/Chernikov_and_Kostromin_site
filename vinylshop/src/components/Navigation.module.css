@@ -1,0 +1,29 @@
+@font-face {
+    font-family:"Cruinn";
+    src: url(fonts/Cruinn/CruinnBlack.ttf);
+}
+
+
+a
+{
+    text-decoration: none;
+    color: #242038;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: #242038;
+}
+
+.nav_wrapper
+{
+    background-color: #FFFFFF;
+    padding-top: 31px;
+}
+
+.rows
+{
+    font-size: 26px;
+    font-family: "Cruinn";
+}
