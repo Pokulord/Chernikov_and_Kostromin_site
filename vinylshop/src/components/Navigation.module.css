@@ -20,10 +20,11 @@ a:hover
 {
     background-color: #FFFFFF;
     padding-top: 31px;
+    margin-bottom: 20px;
 }
 
 .rows
 {
-    font-size: 26px;
+    font-size: 32px;
     font-family: "Cruinn";
 }

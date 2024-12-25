@@ -1,0 +1,124 @@
+@font-face {
+    font-family:"Cruinn";
+    src: url(../components/fonts/Cruinn/CruinnBlack.ttf);
+}
+
+
+
+.catalog_wrapper
+{
+    background-color: #C7D6D5;
+    padding-top: 58px;
+}
+
+.search_section
+{
+    background-color: #FFFFFF;
+    font-family: "Cruinn";
+    margin-bottom: 50px;
+}
+.sect_title
+{
+    font-size: 25px;
+    color: #242038;
+    padding: 23px 0px 23px 60px;
+    
+}
+
+
+
+.search_rect
+{
+    height: 3px;
+    background-color: #C7D6D5;
+}
+
+
+.search_form
+{
+    margin-top: 23px;
+    margin-left: 60px;
+}
+
+.search_form label
+{
+    font-weight: bold;
+}
+
+.search_input
+{
+    border: none;
+    background-color: #C7D6D5;
+    padding-left: 10px;
+    height: 42px;
+    margin-bottom: 18px;
+}
+
+#last_upper_search
+{
+    margin-bottom: 48px;
+}
+
+.search_price_sect
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 42px;
+}
+
+
+.price_limits
+{
+    width: 105px;
+    border: none;
+    background-color: #C7D6D5;
+    height: 42px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.search_but
+{
+    border: none;
+    background-color: #B43065;
+    color: white;
+    text-align: center; 
+    height: 42px;
+    width: 80%;
+    margin-bottom: 41px;
+}
+
+
+
+
+.catalog_cards_title
+{
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.sorted_title
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 28px;
+}
+
+.sort_sect
+{
+    font-weight: bold;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sort_select
+{
+    padding-left: 10px;
+    color: #909B9A;
+    height: 27px;
+    padding-right: 50px;
+}

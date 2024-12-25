@@ -17,10 +17,10 @@ function App() {
         <Header logo_img={logo_img} phone_log = {phone_logo} split = {split_rect} user_i = {user_icon} basket_i = {basket_icon}/>
         <div class="container custom-container">
         <Navigation/>
+        </div>
         <Routes>
           <Route path="/catalog" element={<Catalog/>}></Route>
         </Routes>
-        </div>
     </>
 
   );
