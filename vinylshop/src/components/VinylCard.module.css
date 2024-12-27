@@ -1,0 +1,60 @@
+@font-face {
+    font-family:"Cruinn";
+    src: url(fonts/Cruinn/CruinnBlack.ttf);
+}
+
+
+.card
+{
+    padding: 42px 36px 30px 36px;
+    background-color: white;
+    width:250px;
+    height:350px;
+    margin-bottom: 10px;
+}
+
+.card_image img
+{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    transition: all ease-out 0.2s;
+}
+
+.card_image img:hover
+{
+    transform: scale(130%);
+    transition: all ease-in 0.2s;
+}
+
+.card_text
+{
+    height: 60px;
+    margin-top: 13px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.price 
+{
+    width: 94px;
+}
+.card_price_sect
+{
+    margin-top: 15px;
+    font-weight: bold ;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+
+.buy_but
+{
+    background-color: #E30B5C ;
+    border: 1px solid #E30B5C;
+    border-radius: 15px;
+    width:59px;
+    margin-left: 40px;
+}
