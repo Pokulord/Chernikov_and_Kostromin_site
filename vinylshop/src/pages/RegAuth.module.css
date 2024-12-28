@@ -1,0 +1,20 @@
+@font-face {
+    font-family:"Cruinn";
+    src: url(../components/fonts/Cruinn/CruinnBlack.ttf);
+}
+
+.custom_container {
+    width: 1440px; 
+    max-width: 100%; 
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 150px;
+}
+
+
+.upper_form_label
+{
+    font-family:"Cruinn" ;
+    font-size: 20px;
+}
+

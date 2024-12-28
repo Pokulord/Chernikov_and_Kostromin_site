@@ -12,6 +12,7 @@ import Catalog from './pages/Catalog';
 import Main from './pages/Main';
 import AboutUs from './pages/AboutUs';
 import Order from './pages/Order';
+import RegandAuth from './pages/RegandAuth';
 
 
 
@@ -23,10 +24,12 @@ function App() {
         <Navigation/>
         </div>
         <Routes>
+        <Route path="/" element={<Main/>}></Route>
           <Route path="/catalog" element={<Catalog/>}></Route>
           <Route path="/main" element={<Main/>}></Route>
           <Route path="/about" element={<AboutUs/>}></Route>
           <Route path="/order" element={<Order/>}></Route>
+          <Route path="/regauth" element={<RegandAuth/>}></Route>
         </Routes>
         
     </>

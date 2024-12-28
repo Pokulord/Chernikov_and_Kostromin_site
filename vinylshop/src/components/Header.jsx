@@ -23,9 +23,11 @@ function Header(props) {
                   <img src={props.phone_log} alt="" />
                   <a className={style.header_integration} href='tel:88005553535'>8(800)5553535</a>
                   <img src={props.split} alt="" />
+                  <Link to="/regauth">
                   <button className={style.header_integration}>
                     <img src={props.user_i} alt="" />
                   </button>
+                  </Link>
                   <img src={props.split} alt="" />
                   <button className={style.header_integration}>
                     <img src={props.basket_i} alt="" />
