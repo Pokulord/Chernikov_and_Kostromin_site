@@ -11,10 +11,15 @@
 }
 
 
+#logo_imaga
+{
+    padding-left: 0px;
+}
+
 .header_info, .header_info a
 {
     color:white;
-    font-size:30px;
+    font-size:25px;
     font-family: "Cruinn";
     text-decoration: none;
 }
@@ -32,3 +37,10 @@
     border: none;
 }
 
+@media (min-width:662px) and (max-width:1070px)
+{
+    .header_info, .header_info a
+    {
+        font-size: 20px;
+    }
+}

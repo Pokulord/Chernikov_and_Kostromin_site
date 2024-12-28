@@ -7,14 +7,14 @@ function Navigation() {
         <div className={style.nav_wrapper}>
                 <nav>
                     <div className={style.rows}>
-                        <div class="row">
-                            <div class="col-2 col-md-3 .col-sm-3">
+                        <div class="row animate__animated animate__backInLeft">
+                            <div id = {style.nav_item} class="col-3 col-md-3 .col-sm-3">
                                 <Link to="/catalog">Каталог</Link>
                             </div>
-                            <div class="col-2 col-md-3 col-sm-2">
+                            <div id = {style.nav_item} class="col-3 col-md-3 col-sm-3">
                                 <Link to="/catalog">О нас</Link>
                             </div>
-                            <div class="col-2 col-md-3 col-sm-1">
+                            <div id = {style.nav_item} class="col-2 col-md-3 col-sm-3">
                                 <Link to="/catalog">Доставка</Link>
                             </div>
                         </div>

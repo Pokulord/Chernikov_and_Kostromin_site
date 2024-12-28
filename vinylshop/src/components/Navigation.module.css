@@ -28,3 +28,12 @@ a:hover
     font-size: 32px;
     font-family: "Cruinn";
 }
+
+
+@media (min-width:200px) and (max-width:767px)
+{
+    #nav_item
+    {
+        font-size: 25px;
+    }
+}

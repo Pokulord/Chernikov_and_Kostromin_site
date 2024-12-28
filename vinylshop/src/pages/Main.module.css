@@ -1,0 +1,100 @@
+@font-face {
+    font-family:"Mod";
+    src: url(../components/fonts/Moderustic/ModerusticBold.ttf);
+}
+
+.custom_container {
+    width: 1440px; 
+    max-width: 100%; 
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 150px;
+}
+
+
+.main_wrapper
+{
+    background-color: #C7D6D5  ;
+}
+
+.left_section
+{
+    background-color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    padding: 33px 20px;
+    font-size: 20px;
+    font-family: "Mod";
+
+}
+
+.left_sect_title
+{
+    margin-bottom: 68px;
+}
+
+.left_sect_image
+{
+    margin-bottom: 16px;
+}
+
+
+.left_images_sect 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+}
+
+.left_sect_image img 
+{
+    width: 350px;
+    height: 207px;
+    object-fit: cover;
+}
+
+.right_sect_images
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-column-gap: 7em;
+    grid-row-gap: 2em;
+}
+
+
+.r_sect_image img 
+{
+    object-fit: fill;
+    height: 305px;
+    max-width: 500px;
+}
+
+.right_sect_images:nth-child(2)
+{
+    grid-column: span 2;
+}
+
+.right_sect_images:nth-child(3)
+{
+    grid-column: span 4;
+}
+
+@media (max-width:1199px)
+{
+    .left_images_sect 
+    {
+        flex-direction: row;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+    .left_sect_image
+    {
+        padding-left: 0px;
+    }
+    .left_section
+    {
+        margin-bottom: 40px;
+    }
+
+}
+
+

@@ -1,5 +1,6 @@
 import React from 'react';
 import style from "./Header.module.css";
+import { Link } from 'react-router-dom';
 
 
 function Header(props) {
@@ -8,15 +9,13 @@ function Header(props) {
       <div className={style.header_info_wrap}>
         <div class="container custom-container">
           <div className={style.rows}>
-          <div class="row">
-            <div class="col d-flex flex-row align-items-center">
-              <img className = {style.logo_image} src={props.logo_img} alt="" />
+          <div id = {style.logo_imaga} class="row animate__animated animate__backInLeft">
+            <div class="col d-flex flex-row align-items-center col-xl-6">
+            <Link to="/main">
+            <img className = {style.logo_image} src={props.logo_img} alt="" /></Link>
               <div className={style.header_info}>
                 ЛУЧШИЕ <br/> ПЛАСТИНКИ <br/> НА ВСЁМ УРАЛЕ
               </div>
-            </div>
-            <div class="col-2">
-
             </div>
             <div class="col d-flex flex-row align-items-center">
               <div className={style.header_info}>

@@ -9,6 +9,7 @@ import user_icon from "./images/user_logo.png";
 import basket_icon from "./images/cart_logo.png";
 import Navigation from './components/Navigation';
 import Catalog from './pages/Catalog';
+import Main from './pages/Main';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         </div>
         <Routes>
           <Route path="/catalog" element={<Catalog/>}></Route>
+          <Route path="/main" element={<Main/>}></Route>
         </Routes>
     </>
 

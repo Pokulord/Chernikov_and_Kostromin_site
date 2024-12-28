@@ -10,18 +10,18 @@ function Catalog() {
     <div className={style.catalog_wrapper}>
       <div class="container custom-container">
         <div className="row">
-          <div class="col-xl-3 col-md-12">
+          <div class="col-xl-3 col-md-5 col-lg-4">
             <div className={style.search_section}>
               <div class={style.sect_title}>Поиск по каталогу</div>
               <div className={style.search_rect}></div>
               <form className={style.search_form} action="#">
-                <label >Исполнитель</label>
-                <input className={style.search_input} name="artist" type="text" />
-                <label >Альбом</label>
-                <input className={style.search_input} name="alb" type="text" />
-                <label >Год выпуска</label>
+                <label >Исполнитель</label> <br />
+                <input className={style.search_input} name="artist" type="text" /> <br />
+                <label for="alb" >Альбом</label> <br />
+                <input id = "alb" className={style.search_input} name="alb" type="text" /> <br />
+                <label >Год выпуска</label> <br />
                 <input className={style.search_input} id={style.last_upper_search} name="product_year" type="text" /> <br />
-                <label >Цена</label>
+                <label >Цена</label> <br />
                 <div className={style.search_price_sect}>
                   <input type="text" className={style.price_limits} name="first_price_lim" placeholder="От" />
                   <input type="text" className={style.price_limits} name="second_price_lim" placeholder="До" />
