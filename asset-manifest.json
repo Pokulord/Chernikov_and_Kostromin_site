@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Chernikov_and_Kostromin_site/main/static/css/main.e3e5df29.css",
-    "main.js": "/Chernikov_and_Kostromin_site/main/static/js/main.70b304cd.js",
-    "static/media/new_year.png": "/Chernikov_and_Kostromin_site/main/static/media/new_year.c1aa3f91d12037ea21b1.png",
-    "static/media/adv.jpg": "/Chernikov_and_Kostromin_site/main/static/media/adv.68b8ddd775a673ae0772.jpg",
-    "static/media/inproc.jpg": "/Chernikov_and_Kostromin_site/main/static/media/inproc.3375d100775470e854b8.jpg",
-    "static/media/new_LA.png": "/Chernikov_and_Kostromin_site/main/static/media/new_LA.3483f3cdd18f02911528.png",
-    "static/media/ModerusticBold.ttf": "/Chernikov_and_Kostromin_site/main/static/media/ModerusticBold.fd2e2e785f08c51dc8d9.ttf",
-    "static/media/smiths.jpg": "/Chernikov_and_Kostromin_site/main/static/media/smiths.55b71c44cdeaf6bb6e2f.jpg",
-    "static/media/weezer.jpg": "/Chernikov_and_Kostromin_site/main/static/media/weezer.d0caf0946578b7e3302f.jpg",
-    "static/media/CruinnBlack.ttf": "/Chernikov_and_Kostromin_site/main/static/media/CruinnBlack.e2b6b92ed843c08f62cb.ttf",
-    "static/media/radiohead.jpg": "/Chernikov_and_Kostromin_site/main/static/media/radiohead.ad1a32ea136300d11073.jpg",
-    "static/media/Nikolay.png": "/Chernikov_and_Kostromin_site/main/static/media/Nikolay.040ebfc62cd8ba3d45c4.png",
-    "static/media/95.png": "/Chernikov_and_Kostromin_site/main/static/media/95.680979c094ae3d86309e.png",
-    "static/media/Guar.png": "/Chernikov_and_Kostromin_site/main/static/media/Guar.be8974cf5fbc4606cf28.png",
-    "static/media/upper_sect_logo_2.png": "/Chernikov_and_Kostromin_site/main/static/media/upper_sect_logo_2.17035de2feea12fd8955.png",
-    "index.html": "/Chernikov_and_Kostromin_site/main/index.html",
-    "main.e3e5df29.css.map": "/Chernikov_and_Kostromin_site/main/static/css/main.e3e5df29.css.map",
-    "main.70b304cd.js.map": "/Chernikov_and_Kostromin_site/main/static/js/main.70b304cd.js.map"
+    "main.css": "/Chernikov_and_Kostromin_site/static/css/main.1f681cd8.css",
+    "main.js": "/Chernikov_and_Kostromin_site/static/js/main.d243447a.js",
+    "static/media/new_year.png": "/Chernikov_and_Kostromin_site/static/media/new_year.c1aa3f91d12037ea21b1.png",
+    "static/media/adv.jpg": "/Chernikov_and_Kostromin_site/static/media/adv.68b8ddd775a673ae0772.jpg",
+    "static/media/inproc.jpg": "/Chernikov_and_Kostromin_site/static/media/inproc.3375d100775470e854b8.jpg",
+    "static/media/new_LA.png": "/Chernikov_and_Kostromin_site/static/media/new_LA.3483f3cdd18f02911528.png",
+    "static/media/ModerusticBold.ttf": "/Chernikov_and_Kostromin_site/static/media/ModerusticBold.fd2e2e785f08c51dc8d9.ttf",
+    "static/media/smiths.jpg": "/Chernikov_and_Kostromin_site/static/media/smiths.55b71c44cdeaf6bb6e2f.jpg",
+    "static/media/weezer.jpg": "/Chernikov_and_Kostromin_site/static/media/weezer.d0caf0946578b7e3302f.jpg",
+    "static/media/CruinnBlack.ttf": "/Chernikov_and_Kostromin_site/static/media/CruinnBlack.e2b6b92ed843c08f62cb.ttf",
+    "static/media/radiohead.jpg": "/Chernikov_and_Kostromin_site/static/media/radiohead.ad1a32ea136300d11073.jpg",
+    "static/media/Nikolay.png": "/Chernikov_and_Kostromin_site/static/media/Nikolay.040ebfc62cd8ba3d45c4.png",
+    "static/media/95.png": "/Chernikov_and_Kostromin_site/static/media/95.680979c094ae3d86309e.png",
+    "static/media/Guar.png": "/Chernikov_and_Kostromin_site/static/media/Guar.be8974cf5fbc4606cf28.png",
+    "static/media/upper_sect_logo_2.png": "/Chernikov_and_Kostromin_site/static/media/upper_sect_logo_2.17035de2feea12fd8955.png",
+    "index.html": "/Chernikov_and_Kostromin_site/index.html",
+    "main.1f681cd8.css.map": "/Chernikov_and_Kostromin_site/static/css/main.1f681cd8.css.map",
+    "main.d243447a.js.map": "/Chernikov_and_Kostromin_site/static/js/main.d243447a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3e5df29.css",
-    "static/js/main.70b304cd.js"
+    "static/css/main.1f681cd8.css",
+    "static/js/main.d243447a.js"
   ]
 }
