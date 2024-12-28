@@ -12,10 +12,10 @@ function Navigation() {
                                 <Link to="/catalog">Каталог</Link>
                             </div>
                             <div id = {style.nav_item} class="col-3 col-md-3 col-sm-3">
-                                <Link to="/catalog">О нас</Link>
+                                <Link to="/about">О нас</Link>
                             </div>
                             <div id = {style.nav_item} class="col-2 col-md-3 col-sm-3">
-                                <Link to="/catalog">Доставка</Link>
+                                <Link to="/order">Доставка</Link>
                             </div>
                         </div>
                     </div>

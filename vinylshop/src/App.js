@@ -10,6 +10,9 @@ import basket_icon from "./images/cart_logo.png";
 import Navigation from './components/Navigation';
 import Catalog from './pages/Catalog';
 import Main from './pages/Main';
+import AboutUs from './pages/AboutUs';
+import Order from './pages/Order';
+
 
 
 function App() {
@@ -22,10 +25,20 @@ function App() {
         <Routes>
           <Route path="/catalog" element={<Catalog/>}></Route>
           <Route path="/main" element={<Main/>}></Route>
+          <Route path="/about" element={<AboutUs/>}></Route>
+          <Route path="/order" element={<Order/>}></Route>
         </Routes>
+        
     </>
 
   );
 }
 
 export default App;
+
+
+
+
+
+
+

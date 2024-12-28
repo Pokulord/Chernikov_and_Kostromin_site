@@ -1,0 +1,24 @@
+@font-face {
+    font-family:"Mod";
+    src: url(../components/fonts/Moderustic/ModerusticBold.ttf);
+}
+
+.custom_container {
+    width: 1440px; 
+    max-width: 100%; 
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 150px;
+}
+
+
+.inprocess
+{
+    width: 100%;
+    padding-right: 20px;
+}
+
+.inprocess img
+{
+    width: 100%;
+}

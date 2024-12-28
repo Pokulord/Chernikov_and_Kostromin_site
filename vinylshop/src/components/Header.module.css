@@ -37,10 +37,39 @@
     border: none;
 }
 
-@media (min-width:662px) and (max-width:1070px)
+
+
+@media (min-width:662px) and (max-width:1074px)
 {
     .header_info, .header_info a
     {
-        font-size: 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:998px)
+{
+    #site_title
+    {
+        display: block;
+    }
+
+}
+
+
+@media (min-width:637px) and (max-width:661px)
+{
+    .header_info, .header_info a
+    {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 385px)
+{
+    .header_info
+    {
+        font-size: 15px;
     }
 }

@@ -1,0 +1,37 @@
+@font-face {
+    font-family:"Mod";
+    src: url(../components/fonts/Moderustic/ModerusticBold.ttf);
+}
+
+
+
+.boutus_title
+{
+    font-family: "Mod";
+    font-size: 40px
+}
+
+.boutus_text
+{
+    font-family: "Mod";
+    font-size: 30px;
+}
+
+.boutus_list li
+{
+    font-family: "Mod";
+    font-size: 20px;
+}
+
+.custom_container {
+    width: 1440px; 
+    max-width: 100%; 
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 150px;
+}
+
+.map
+{
+
+}
