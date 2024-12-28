@@ -98,3 +98,23 @@
 }
 
 
+@media (max-width:523px)
+{
+    .left_sect_image
+{
+    transform: scale(0.8);
+}
+
+.r_sect_image img 
+{
+    object-fit: contain;
+    height: 305px;
+    max-width: 350px;
+}
+
+
+    
+
+}
+
+

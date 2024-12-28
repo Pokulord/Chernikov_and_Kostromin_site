@@ -49,3 +49,14 @@ a:hover
         font-size: 20px;
     }
 }
+
+
+
+@media (max-width:767px)
+
+{
+  .nav_wrapper
+  {
+      display: none;
+  }
+}

@@ -11,7 +11,7 @@ function Navigation() {
                             <div id = {style.nav_item} class="col-3 col-md-3 .col-sm-3">
                                 <Link to="/catalog">Каталог</Link>
                             </div>
-                            <div id = {style.nav_item} class="col-3 col-md-3 col-sm-3">
+                            <div id = {style.nav_item} class="col-4 col-md-3 col-sm-3">
                                 <Link to="/about">О нас</Link>
                             </div>
                             <div id = {style.nav_item} class="col-2 col-md-3 col-sm-3">

@@ -11,7 +11,7 @@ function Catalog() {
     <div className={style.catalog_wrapper}>
       <div class="container custom-container">
         <div className="row">
-          <div class="col-xl-3 col-md-5 col-lg-4">
+          <div class="col-xl-4 col-md-5 col-lg-4">
             <div className={style.search_section}>
               <div class={style.sect_title}>Поиск по каталогу</div>
               <div className={style.search_rect}></div>

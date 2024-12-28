@@ -37,6 +37,10 @@
     border: none;
 }
 
+.burger_block
+{
+    display: none;
+}
 
 
 @media (min-width:662px) and (max-width:1074px)
@@ -45,31 +49,36 @@
     {
         font-size: 15px;
     }
+    #last_header_elem
+    {
+        padding-left: 7px;
+        margin-left: 0px;
+    }
+    /* #site_title
+    {
+        display: none;
+    } */
 }
 
-@media (max-width:998px)
+
+
+
+@media (max-width:767px)
 {
-    #site_title
+     .header_integration , .split,  .phone_logo
     {
-        display: block;
+        display: none;
+    }
+    .burger_block
+    {
+        display: inline-block;
     }
 
-}
-
-
-@media (min-width:637px) and (max-width:661px)
-{
-    .header_info, .header_info a
-    {
-        font-size: 15px;
-    }
-}
-
-
-@media (max-width: 385px)
-{
     .header_info
     {
-        font-size: 15px;
+        font-size: 30px;
     }
+
+
+    
 }

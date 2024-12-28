@@ -13,7 +13,7 @@ function Main() {
     <div className={style.main_wrapper}>
       <div class={style.custom_container}>
         <div className="row">
-          <div className="col-xl-4 col-sm-12">
+          <div className="col-xl-4 col-sm-12 col-12">
             <div className={style.left_section}>
               <div className={style.left_sect_title}>
                 Причины стать нашим покупателем
