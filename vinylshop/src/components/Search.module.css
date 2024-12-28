@@ -1,0 +1,46 @@
+.search_form {
+    margin-top: 23px;
+    margin-left: 60px;
+}
+
+.search_form label {
+    font-weight: bold;
+}
+
+.search_input {
+    border: none;
+    background-color: #C7D6D5;
+    padding-left: 10px;
+    height: 42px;
+    margin-bottom: 18px;
+}
+
+#last_upper_search {
+    margin-bottom: 48px;
+}
+
+.search_price_sect {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 42px;
+}
+
+
+.price_limits {
+    width: 105px;
+    border: none;
+    background-color: #C7D6D5;
+    height: 42px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.search_but {
+    border: none;
+    background-color: #B43065;
+    color: white;
+    text-align: center;
+    height: 42px;
+    width: 80%;
+    margin-bottom: 41px;
+}
